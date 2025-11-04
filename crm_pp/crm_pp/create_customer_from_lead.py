@@ -14,7 +14,7 @@ def create_customer_from_lead(doc, method=None):
 
             if hasattr(customer_doc, "customer_type"):
                 if customer_doc.customer_type == "Company":
-                    customer_doc.customer_type = "Business Owner"
+                    customer_doc.customer_type = "Business Owner "
 
             customer_doc.insert(ignore_permissions=True)
             frappe.db.commit()
