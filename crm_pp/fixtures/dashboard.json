@@ -2,6 +2,1306 @@
  {
   "cards": [
    {
+    "card": "Total Perm Leads (90 Days)",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Perm Opportunities (90 Days)",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Perm Opportunity Value (90 Days)",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Perm Closed Won (90 Days)",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Lead Status - Perm - 90 Days",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunity by Stage - Perm - Past 90 Days",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Salary Offering - Perm - 90 Days - (Pipeline)",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Salary Offering - Perm - 90 Days - All Leads",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Leads Allocated to BD - Perm - Last 90 Days",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Total Leads - Perm - 90 Days",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Unqualified Reason - Perm - 90 Days",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Industry Wise Leads - Perm - Past 90 Days",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Rating - Perm - Past 90 Days (Pipeline)",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunities by Owner - Perm - 90 Days",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Expected Revenue - Perm - 90 Days",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Perm Leads Trend - Last 90 Days",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Perm Opportunities Trend - Last 90 Days",
+    "parent": "Perm Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "Perm Leads & Opportunities (All Source)",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-11-02 20:47:23.716005",
+  "module": "CRM PP",
+  "name": "Perm Leads & Opportunities (All Source)"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total Temp Leads (90 Days)",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Temp Opportunities (90 Days)",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Temp Opportunity Value (90 Days)",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Temp Closed Won (90 Days)",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Lead Status - Temp - 90 Days",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunity by Stage - Temp - Past 90 Days",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Salary Offering - Temp - 90 Days - (Pipeline)",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Salary Offering - Temp - 90 Days - All Leads",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Leads Allocated to BD - Temp - Last 90 Days",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Total Leads - Temp - 90 Days",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Unqualified Reason - Temp - 90 Days",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Full"
+   },
+   {
+    "chart": "Industry Wise Leads - Temp - Past 90 Days",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Rating - Temp - Past 90 Days (Pipeline)",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunities by Owner - Temp - 90 Days",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Expected Revenue - Temp - 90 Days",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Temp Leads Trend - Last 90 Days",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Temp Opportunities Trend - Last 90 Days",
+    "parent": "Temp Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "Temp Leads & Opportunities (All Source)",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-11-02 21:00:21.214365",
+  "module": "CRM PP",
+  "name": "Temp Leads & Opportunities (All Source)"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total LLC Leads (90 Days)",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total LLC Opportunities (90 Days)",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total LLC Opportunity Value (90 Days)",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "LLC Closed Won (90 Days)",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Lead Status - LLC - 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunity by Stage - LLC - 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "TAT Todays Date - LLC - 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Industry Wise Leads - LLC - 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Unqualified Reason - LLC - 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Lead Source - LLC - 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Allocated by BD - LLC - 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Lead Rating - LLC - 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Rating - LLC - Past 90 Days (Pipeline)",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunities by Owner - LLC - 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Expected Revenue - LLC - 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "LLC Leads Trend - Last 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "LLC Opportunities Trend - Last 90 Days",
+    "parent": "LLC Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "LLC Leads & Opportunities (All Source)",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-11-02 21:07:37.792524",
+  "module": "CRM PP",
+  "name": "LLC Leads & Opportunities (All Source)"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total L&D Leads (90 Days)",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total L&D Opportunities (90 Days)",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total L&D Opportunity Value (90 Days)",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "L&D Closed Won (90 Days)",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Lead Status - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunity by Stage - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "TAT Todays Date - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Unqualified Reason - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Rating - L&D - 90 Days (Pipeline)",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Type Of Service - L&D - 90 Days (All Leads)",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Industry Wise Leads - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Leads Allocated by BD - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Lead Source - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunities by Owner - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Expected Revenue - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "L&D Leads Trend - Last 90 Days",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "L&D Opportunities Trend - Last 90 Days",
+    "parent": "L&D Leads & Opportunities (All Source)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "L&D Leads & Opportunities (All Source)",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-11-02 21:17:05.858461",
+  "module": "CRM PP",
+  "name": "L&D Leads & Opportunities (All Source)"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total Perm Leads - Marketing (90 Days)",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Perm Opportunities - Marketing (90 Days)",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Perm Opportunity Value - Marketing (90 Days)",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Perm Closed Won - Marketing (90 Days)",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "(Mrkt) - Lead Status - Perm - 90 Days",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "(Mrkt) - Opportunity by Stage - Perm",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "TAT Todays Date - Perm - 90 Days - (Mrkt)",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Industry Wise Leads - Perm - Past 60 Days",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Unqualified Reason - Perm - (Mrkt)",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "(Mrkt) - Perm - 90 Days",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "(Mrkt) - Leads Allocated by BD - Perm",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Lead Source - Industry - (Mrkt) - 90Days",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Salary Offerings - Perm - (Mrkt)",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "(Mrkt) - Perm Salary Offering",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunities by Owner - Perm - Marketing",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Perm Marketing Leads Trend - Last 90 Days",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Perm Marketing Opportunities Trend - Last 90 Days",
+    "parent": "Perm Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "Perm Leads & Opportunities (Marketing)",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-11-02 21:57:23.638540",
+  "module": "CRM PP",
+  "name": "Perm Leads & Opportunities (Marketing)"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total Temp Leads - Marketing (90 Days)",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Temp Opportunities - Marketing (90 Days)",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Temp Opportunity Value - Marketing (90 Days)",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Temp Closed Won - Marketing (90 Days)",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Lead Status - Temp (Marketing)",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunity by Stage - Temp - (Marketing)",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "TAT Todays Date - Temp - 90 Days - Marketing",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Allocated by BD - Temp - 90 (Mrkt)",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Unqualified Reason - Temp - Mktg - 90",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Lead Rating - Temp - Mktg - 90 (Pipeline)",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "All Source- Lead source -Temp - (Mrkt)",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Lead Industry-Temp - (Mrkt) - 90 Days",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Temp Salary Offering - Mktg - All Leads - 90 Days",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Salary Offerings - Temp - Open Opps - Marketing - 90 Days",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunities by Owner - Temp - Marketing",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Temp Marketing Leads Trend - Last 90 Days",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Temp Marketing Opportunities Trend - Last 90 Days",
+    "parent": "Temp Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "Temp Leads & Opportunities (Marketing)",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-11-02 22:03:25.599130",
+  "module": "CRM PP",
+  "name": "Temp Leads & Opportunities (Marketing)"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total L&D Leads - Marketing (90 Days)",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total L&D Opportunities - Marketing (90 Days)",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total L&D Opportunity Value - Marketing (90 Days)",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "L&D Closed Won - Marketing (90 Days)",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Lead Status - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Markt - Opportunity by Stage 90 Days",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "TAT Todays Date - L&D -90 Days",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Unqualified Reason - L&D -90 Days",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Rating - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Type Of Service - L&D - 90 Days",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Markt- Industry- L&D -90",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Markt- Leads allocated by BD 90 Days",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Markt - Lead source - L&D -90 Days",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunities by Owner - L&D - Marketing",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Expected Revenue - L&D - Marketing",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "L&D Marketing Leads Trend - Last 90 Days",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "L&D Marketing Opportunities Trend - Last 90 Days",
+    "parent": "L&D Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "L&D Leads & Opportunities (Marketing)",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-11-02 22:08:38.385625",
+  "module": "CRM PP",
+  "name": "L&D Leads & Opportunities (Marketing)"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total LLC Leads - Marketing (90 Days)",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total LLC Opportunities - Marketing (90 Days)",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total LLC Opportunity Value - Marketing (90 Days)",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "LLC Closed Won - Marketing (90 Days)",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Markt -Lead Status - LLC 90",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Markt-Opportunity by Stage 90 Days",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Markt TAT Todays Date - LLC - 90 Days",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Industry Wise Leads - LLC-90 Days",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Unqualified Reason - LLC -90 Day",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Markt - Lead source - LLC 90 Days",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Markt - Allocated by BD - 90 Days",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Markt- Lead Rating - LLC-90 Days",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Rating - LLC - Marketing - Pipeline",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunities by Owner - LLC - Marketing",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Expected Revenue - LLC - Marketing",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "LLC Marketing Leads Trend - Last 90 Days",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "LLC Marketing Opportunities Trend - Last 90 Days",
+    "parent": "LLC Leads & Opportunities (Marketing)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "LLC Leads & Opportunities (Marketing)",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-11-02 22:14:01.371640",
+  "module": "CRM PP",
+  "name": "LLC Leads & Opportunities (Marketing)"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total Franchise Leads (90 Days)",
+    "parent": "Franchise",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Franchise Opportunities (90 Days)",
+    "parent": "Franchise",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Franchise Opportunity Value (90 Days)",
+    "parent": "Franchise",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Franchise Closed Won (90 Days)",
+    "parent": "Franchise",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "Franchise Qualified and Unqualified",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Leads Report Franchise as per Rating",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Franchise Leads Unqualified Reason",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Leads Report Franchise as per City",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Franchise Leads As per Source",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunity by Stage - Franchise - 90 Days",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Lead Status - Franchise - 90 Days",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Industry Wise Leads - Franchise - 90 Days",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Opportunities by Owner - Franchise - 90 Days",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Leads Allocated to BD - Franchise - 90 Days",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Expected Revenue - Franchise - 90 Days",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Franchise Leads Trend - Last 90 Days",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Franchise Opportunities Trend - Last 90 Days",
+    "parent": "Franchise",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "Franchise",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-11-02 22:18:28.585610",
+  "module": "CRM PP",
+  "name": "Franchise"
+ },
+ {
+  "cards": [
+   {
+    "card": "Total Leads - July Marketing - All Verticals",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Opportunities - July Marketing - All Verticals",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Total Opportunity Value - July Marketing - All Verticals",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Closed Won - July Marketing - All Verticals",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": null,
+  "charts": [
+   {
+    "chart": "July (Mrkt)- Lead source - All Vertical",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July (Mrkt) -Lead Status -All Vertical",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July (Mrkt) - Lead Status - All Ver - Unq",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July (Mrkt) - All Vertical",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July (Mrkt) -Opportunity by Stage",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July (Mrkt) - Lead by Industry",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July (Mrkt) - Lead Rating",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July Leads Trend - All Vertical - Marketing",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July Opportunities Trend - All Vertical - Marketing",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July Leads by Vertical - All Marketing",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July Opportunities by Vertical - All Marketing",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July Expected Revenue by Vertical - Marketing",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "July Lead Owner - All Vertical - Marketing",
+    "parent": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 0,
+  "is_standard": 0,
+  "modified": "2025-11-02 22:23:54.247698",
+  "module": "CRM PP",
+  "name": "July - Marketing - All verticals combined (L&D, LLC, Perm, and Temp only)"
+ },
+ {
+  "cards": [
+   {
     "card": "Total Leads",
     "parent": "CRM Dashboard",
     "parentfield": "cards",
