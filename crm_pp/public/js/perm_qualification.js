@@ -281,7 +281,7 @@ function calculate_qualification_score(frm) {
     }
 
     // --- 7. Company Type (6 points) ---
-    if (["Private Limited", "Listed"].includes(frm.doc.custom_company_type)) {
+    if (["Private Limited", "Listed","Proprietorship","Partnership","Limited","LLP"].includes(frm.doc.custom_company_type)) {
         score += 6;
         frm.set_value("custom_company_type_private_ltd__listed", 1);
         breakdown.push(`✓ Company Type (${frm.doc.custom_company_type}): 6 pts`);

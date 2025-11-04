@@ -235,7 +235,7 @@ function calculate_temp_qualification_score(frm) {
         
         console.log("Company Type detected:", type); // DEBUG
 
-        if (["Private Limited", "Listed"].includes(type)) {
+        if (["Private Limited", "Listed","Proprietorship","Partnership","Limited","LLP"].includes(type)) {
             score += 6;
             frm.set_value("custom_company_temp", 1);
             breakdown.push(`✓ Company Type (${type}): 6 pts`);
