@@ -186,15 +186,21 @@ function calculate_temp_qualification_score(frm) {
         let currentYear = new Date().getFullYear();
         let companyAge = currentYear - frm.doc.custom_company_establishment_year;
         if (companyAge >= 3) {
-            frm.set_value("custom_company_establishment", 1);
+            if (frm.doc.custom_company_establishment !== 1) {
+                frm.set_value("custom_company_establishment", 1);
+            }
             score += 6;
             breakdown.push("✓ Company Age (≥3 years): 6 pts");
         } else {
-            frm.set_value("custom_company_establishment", 0);
+            if (frm.doc.custom_company_establishment !== 0) {
+                frm.set_value("custom_company_establishment", 0);
+            }
             breakdown.push("✗ Company Age (<3 years): 0 pts");
         }
     } else {
-        frm.set_value("custom_company_establishment", 0);
+        if (frm.doc.custom_company_establishment !== 0) {
+            frm.set_value("custom_company_establishment", 0);
+        }
         breakdown.push("✗ Company Age: Not provided");
     }
 
@@ -237,17 +243,23 @@ function calculate_temp_qualification_score(frm) {
 
         if (["Private Limited", "Listed","Proprietorship","Partnership","Limited","LLP"].includes(type)) {
             score += 6;
-            frm.set_value("custom_company_temp", 1);
+            if (frm.doc.custom_company_temp !== 1) {
+                frm.set_value("custom_company_temp", 1);
+            }
             breakdown.push(`✓ Company Type (${type}): 6 pts`);
         } else {
             // All other company types get 4 points
             score += 4;
-            frm.set_value("custom_company_temp", 1);
+            if (frm.doc.custom_company_temp !== 1) {
+                frm.set_value("custom_company_temp", 1);
+            }
             breakdown.push(`○ Company Type (${type}): 4 pts`);
         }
     } else {
         // This will run when the field is empty
-        frm.set_value("custom_company_temp", 0);
+        if (frm.doc.custom_company_temp !== 0) {
+            frm.set_value("custom_company_temp", 0);
+        }
         breakdown.push("✗ Company Type: Not provided");
     }
 
@@ -255,10 +267,14 @@ function calculate_temp_qualification_score(frm) {
     // --- 7. Employment Tenure (6 points) - MANDATORY field, score based on value ---
     if (frm.doc.custom_employment_tenure_temp && frm.doc.custom_employment_tenure_temp > 1) {
         score += 6;
-        frm.set_value("custom_employment_tenure", 1);
+        if (frm.doc.custom_employment_tenure !== 1) {
+            frm.set_value("custom_employment_tenure", 1);
+        }
         breakdown.push(`✓ Employment Tenure (${frm.doc.custom_employment_tenure_temp} months): 6 pts`);
     } else {
-        frm.set_value("custom_employment_tenure", 0);
+        if (frm.doc.custom_employment_tenure !== 0) {
+            frm.set_value("custom_employment_tenure", 0);
+        }
         if (frm.doc.custom_employment_tenure_temp) {
             breakdown.push(`✗ Employment Tenure (${frm.doc.custom_employment_tenure_temp} month): 0 pts`);
         } else {
@@ -283,14 +299,18 @@ function calculate_temp_qualification_score(frm) {
                 volume_score = 0;
         }
         score += volume_score;
-        frm.set_value("custom_minimum_staffing_requirement", 1); // Set checkbox if any value is selected
+        if (frm.doc.custom_minimum_staffing_requirement !== 1) {
+            frm.set_value("custom_minimum_staffing_requirement", 1); // Set checkbox if any value is selected
+        }
         if (volume_score > 0) {
             breakdown.push(`✓ Recruitment Volume (${frm.doc.custom_recruitment_volume}): ${volume_score} pts`);
         } else {
             breakdown.push("✗ Recruitment Volume: 0 pts");
         }
     } else {
-        frm.set_value("custom_minimum_staffing_requirement", 0);
+        if (frm.doc.custom_minimum_staffing_requirement !== 0) {
+            frm.set_value("custom_minimum_staffing_requirement", 0);
+        }
         breakdown.push("✗ Recruitment Volume: Not provided");
     }
 
@@ -311,19 +331,26 @@ function calculate_temp_qualification_score(frm) {
                 turnover_score = 0;
         }
         score += turnover_score;
-        frm.set_value("custom_turnover_temp", turnover_score > 0 ? 1 : 0);
+        let turnover_value = turnover_score > 0 ? 1 : 0;
+        if (frm.doc.custom_turnover_temp !== turnover_value) {
+            frm.set_value("custom_turnover_temp", turnover_value);
+        }
         if (turnover_score > 0) {
             breakdown.push(`✓ Turnover (${frm.doc.custom_turnover_in_inr}): ${turnover_score} pts`);
         } else {
             breakdown.push(`✗ Turnover (${frm.doc.custom_turnover_in_inr}): 0 pts`);
         }
     } else {
-        frm.set_value("custom_turnover_temp", 0);
+        if (frm.doc.custom_turnover_temp !== 0) {
+            frm.set_value("custom_turnover_temp", 0);
+        }
         breakdown.push("✗ Turnover: Not provided");
     }
 
     // --- Save Final Score ---
-    frm.set_value("custom_qualification_score", score);
+    if (frm.doc.custom_qualification_score !== score) {
+        frm.set_value("custom_qualification_score", score);
+    }
     
     // --- Show Real-Time Score Display ---
     display_temp_realtime_score(frm, score, breakdown);

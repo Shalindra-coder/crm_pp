@@ -183,11 +183,15 @@ function calculate_franchise_qualification_score(frm) {
     // --- 2. Office Space (7 points) ---
     if (frm.doc.custom_office_space_franchise) {
         score += 7;
-        frm.set_value("custom_office_space", 1);
+        if (frm.doc.custom_office_space !== 1) {
+            frm.set_value("custom_office_space", 1);
+        }
         breakdown.push("✓ Office Space: 7 pts");
     } else {
         score += 0;
-        frm.set_value("custom_office_space", 0);
+        if (frm.doc.custom_office_space !== 0) {
+            frm.set_value("custom_office_space", 0);
+        }
         breakdown.push("✗ Office Space: 0 pts");
     }
 
@@ -240,19 +244,26 @@ function calculate_franchise_qualification_score(frm) {
                 intent_score = 0;
         }
         score += intent_score;
-        frm.set_value("custom_active_involvement", intent_score > 0 ? 1 : 0);
+        let involvement_value = intent_score > 0 ? 1 : 0;
+        if (frm.doc.custom_active_involvement !== involvement_value) {
+            frm.set_value("custom_active_involvement", involvement_value);
+        }
         if (intent_score > 0) {
             breakdown.push(`✓ Franchisee Engagement (${frm.doc.custom__franchisee_engagement_intent}): ${intent_score} pts`);
         } else {
             breakdown.push("✗ Franchisee Engagement: 0 pts");
         }
     } else {
-        frm.set_value("custom_active_involvement", 0);
+        if (frm.doc.custom_active_involvement !== 0) {
+            frm.set_value("custom_active_involvement", 0);
+        }
         breakdown.push("✗ Franchisee Engagement: Not provided");
     }
 
     // --- Save Final Score ---
-    frm.set_value("custom_qualification_score", score);
+    if (frm.doc.custom_qualification_score !== score) {
+        frm.set_value("custom_qualification_score", score);
+    }
     
     // --- Show Real-Time Score Display ---
     display_franchise_realtime_score(frm, score, breakdown);

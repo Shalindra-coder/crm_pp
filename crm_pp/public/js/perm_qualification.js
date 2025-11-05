@@ -185,15 +185,21 @@ function calculate_qualification_score(frm) {
         let currentYear = new Date().getFullYear();
         let companyAge = currentYear - frm.doc.custom_company_establishment_year;
         if (companyAge >= 3) {
-            frm.set_value("custom_company_age__3_years", 1);
+            if (frm.doc.custom_company_age__3_years !== 1) {
+                frm.set_value("custom_company_age__3_years", 1);
+            }
             score += 6;
             breakdown.push("✓ Company Age (≥3 years): 6 pts");
         } else {
-            frm.set_value("custom_company_age__3_years", 0);
+            if (frm.doc.custom_company_age__3_years !== 0) {
+                frm.set_value("custom_company_age__3_years", 0);
+            }
             breakdown.push("✗ Company Age (<3 years): 0 pts");
         }
     } else {
-        frm.set_value("custom_company_age__3_years", 0);
+        if (frm.doc.custom_company_age__3_years !== 0) {
+            frm.set_value("custom_company_age__3_years", 0);
+        }
         breakdown.push("✗ Company Age: Not provided");
     }
 
@@ -208,24 +214,33 @@ function calculate_qualification_score(frm) {
             default: ctc_score = 0;
         }
         score += ctc_score;
-        frm.set_value("custom_eligible_mandate_ctc__6l", ctc_score > 0 ? 1 : 0);
+        let eligible_value = ctc_score > 0 ? 1 : 0;
+        if (frm.doc.custom_eligible_mandate_ctc__6l !== eligible_value) {
+            frm.set_value("custom_eligible_mandate_ctc__6l", eligible_value);
+        }
         if (ctc_score > 0) {
             breakdown.push(`✓ Salary Offering (${frm.doc.custom_salary_offering}): ${ctc_score} pts`);
         } else {
             breakdown.push("✗ Salary Offering: 0 pts");
         }
     } else {
-        frm.set_value("custom_eligible_mandate_ctc__6l", 0);
+        if (frm.doc.custom_eligible_mandate_ctc__6l !== 0) {
+            frm.set_value("custom_eligible_mandate_ctc__6l", 0);
+        }
         breakdown.push("✗ Salary Offering: Not provided");
     }
 
     // --- 3. Website Domain (6 points) ---
     if (frm.doc.website) {
         score += 6;
-        frm.set_value("custom_verified_client_websitedomain_check", 1);
+        if (frm.doc.custom_verified_client_websitedomain_check !== 1) {
+            frm.set_value("custom_verified_client_websitedomain_check", 1);
+        }
         breakdown.push("✓ Verified Website: 6 pts");
     } else {
-        frm.set_value("custom_verified_client_websitedomain_check", 0);
+        if (frm.doc.custom_verified_client_websitedomain_check !== 0) {
+            frm.set_value("custom_verified_client_websitedomain_check", 0);
+        }
         breakdown.push("✗ No Website: 0 pts");
     }
 
@@ -249,14 +264,19 @@ function calculate_qualification_score(frm) {
                 break;
         }
         score += position_score;
-        frm.set_value("custom_recent_openings_60_days", position_score > 0 ? 1 : 0);
+        let recent_value = position_score > 0 ? 1 : 0;
+        if (frm.doc.custom_recent_openings_60_days !== recent_value) {
+            frm.set_value("custom_recent_openings_60_days", recent_value);
+        }
         if (position_score > 0) {
             breakdown.push(`✓ Positions Open (${frm.doc.custom_positions_open_from}): ${position_score} pts`);
         } else {
             breakdown.push("✗ Positions Open: 0 pts");
         }
     } else {
-        frm.set_value("custom_recent_openings_60_days", 0);
+        if (frm.doc.custom_recent_openings_60_days !== 0) {
+            frm.set_value("custom_recent_openings_60_days", 0);
+        }
         breakdown.push("✗ Positions Open: Not provided");
     }
 
@@ -269,24 +289,33 @@ function calculate_qualification_score(frm) {
             case "7 and Above": volume_score = 10; break;
         }
         score += volume_score;
-        frm.set_value("custom_multiple_openings", volume_score > 0 ? 1 : 0);
+        let multiple_value = volume_score > 0 ? 1 : 0;
+        if (frm.doc.custom_multiple_openings !== multiple_value) {
+            frm.set_value("custom_multiple_openings", multiple_value);
+        }
         if (volume_score > 0) {
             breakdown.push(`✓ Recruitment Volume (${frm.doc.custom_recruitment_volume_perm}): ${volume_score} pts`);
         } else {
             breakdown.push("✗ Recruitment Volume: 0 pts");
         }
     } else {
-        frm.set_value("custom_multiple_openings", 0);
+        if (frm.doc.custom_multiple_openings !== 0) {
+            frm.set_value("custom_multiple_openings", 0);
+        }
         breakdown.push("✗ Recruitment Volume: Not provided");
     }
 
     // --- 7. Company Type (6 points) ---
     if (["Private Limited", "Listed","Proprietorship","Partnership","Limited","LLP"].includes(frm.doc.custom_company_type)) {
         score += 6;
-        frm.set_value("custom_company_type_private_ltd__listed", 1);
+        if (frm.doc.custom_company_type_private_ltd__listed !== 1) {
+            frm.set_value("custom_company_type_private_ltd__listed", 1);
+        }
         breakdown.push(`✓ Company Type (${frm.doc.custom_company_type}): 6 pts`);
     } else {
-        frm.set_value("custom_company_type_private_ltd__listed", 0);
+        if (frm.doc.custom_company_type_private_ltd__listed !== 0) {
+            frm.set_value("custom_company_type_private_ltd__listed", 0);
+        }
         if (frm.doc.custom_company_type) {
             breakdown.push(`✗ Company Type (${frm.doc.custom_company_type}): 0 pts`);
         } else {
@@ -303,14 +332,19 @@ function calculate_qualification_score(frm) {
             case "200 Cr and Above": turnover_score = 9; break;
         }
         score += turnover_score;
-        frm.set_value("custom_turnover__50_cr", turnover_score > 0 ? 1 : 0);
+        let turnover_value = turnover_score > 0 ? 1 : 0;
+        if (frm.doc.custom_turnover__50_cr !== turnover_value) {
+            frm.set_value("custom_turnover__50_cr", turnover_value);
+        }
         if (turnover_score > 0) {
             breakdown.push(`✓ Turnover (${frm.doc.custom_turnover_in_inr}): ${turnover_score} pts`);
         } else {
             breakdown.push(`✗ Turnover (${frm.doc.custom_turnover_in_inr}): 0 pts`);
         }
     } else {
-        frm.set_value("custom_turnover__50_cr", 0);
+        if (frm.doc.custom_turnover__50_cr !== 0) {
+            frm.set_value("custom_turnover__50_cr", 0);
+        }
         breakdown.push("✗ Turnover: Not provided");
     }
 
@@ -323,7 +357,9 @@ function calculate_qualification_score(frm) {
     }
 
     // --- Save Final Score ---
-    frm.set_value("custom_qualification_score", score);
+    if (frm.doc.custom_qualification_score !== score) {
+        frm.set_value("custom_qualification_score", score);
+    }
     
     // --- Show Real-Time Score Display ---
     display_realtime_score(frm, score, breakdown);

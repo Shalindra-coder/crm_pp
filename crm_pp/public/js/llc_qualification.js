@@ -209,14 +209,19 @@ function calculate_llc_qualification_score(frm) {
                 volume_score = 0;
         }
         score += volume_score;
-        frm.set_value("custom_multilocation_presence", volume_score > 0 ? 1 : 0);
+        let presence_value = volume_score > 0 ? 1 : 0;
+        if (frm.doc.custom_multilocation_presence !== presence_value) {
+            frm.set_value("custom_multilocation_presence", presence_value);
+        }
         if (volume_score > 0) {
             breakdown.push(`✓ Number of Offices/Plants (${frm.doc.custom_no_of_officesplants}): ${volume_score} pts`);
         } else {
             breakdown.push("✗ Number of Offices/Plants: 0 pts");
         }
     } else {
-        frm.set_value("custom_multilocation_presence", 0);
+        if (frm.doc.custom_multilocation_presence !== 0) {
+            frm.set_value("custom_multilocation_presence", 0);
+        }
         breakdown.push("✗ Number of Offices/Plants: Not provided");
     }
 
@@ -237,19 +242,26 @@ function calculate_llc_qualification_score(frm) {
                 turnover_score = 0;
         }
         score += turnover_score;
-        frm.set_value("custom_turnover", turnover_score > 0 ? 1 : 0);
+        let turnover_value = turnover_score > 0 ? 1 : 0;
+        if (frm.doc.custom_turnover !== turnover_value) {
+            frm.set_value("custom_turnover", turnover_value);
+        }
         if (turnover_score > 0) {
             breakdown.push(`✓ Turnover (${frm.doc.custom_turnover_in_inr}): ${turnover_score} pts`);
         } else {
             breakdown.push("✗ Turnover: 0 pts");
         }
     } else {
-        frm.set_value("custom_turnover", 0);
+        if (frm.doc.custom_turnover !== 0) {
+            frm.set_value("custom_turnover", 0);
+        }
         breakdown.push("✗ Turnover: Not provided");
     }
 
     // --- Save Final Score ---
-    frm.set_value("custom_qualification_score", score);
+    if (frm.doc.custom_qualification_score !== score) {
+        frm.set_value("custom_qualification_score", score);
+    }
     
     // --- Show Real-Time Score Display ---
     display_llc_realtime_score(frm, score, breakdown);
