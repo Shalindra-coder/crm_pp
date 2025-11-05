@@ -66,7 +66,7 @@ doctype_js = {
     ],
     "Opportunity": [
         "public/js/city_state_mapping_autocomplete.js",
-        "public/js/opportunity_custom.js"
+        # "public/js/opportunity_custom.js"
     ]
 }
 
