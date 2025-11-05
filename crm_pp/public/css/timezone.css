@@ -6,9 +6,9 @@
     display: none !important;
 }
 
-.help-box {
+/* .help-box {
 display: none;
-}
+} */
 
 .form-group[data-fieldname="custom_created_on"].help-box {
 display: none;
