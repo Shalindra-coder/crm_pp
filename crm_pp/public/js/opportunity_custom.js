@@ -347,8 +347,8 @@ if (!window._opportunity_funnel_handlers_bound) {
             if (clicked_status === "Closed") {
                 frappe.confirm(
                     __("Final outcome of this opportunity?") + "<br>" +
-                    __("✅ Yes = Closed Won") + "<br>" +
-                    __("❌ No = Closed Lost"),
+                    __("Yes = Closed Won") + "<br>" +
+                    __("No = Closed Lost"),
                     // On Confirm (Closed Won)
                     () => {
                         frm.selected_status_for_change = "Closed Won";
@@ -436,8 +436,8 @@ if (!window._opportunity_funnel_handlers_bound) {
             if (next_status === "Closed") {
                 frappe.confirm(
                     __("Final outcome of this opportunity?") + "<br>" +
-                    __("✅ Yes = Closed Won") + "<br>" +
-                    __("❌ No = Closed Lost"),
+                    __("Yes = Closed Won") + "<br>" +
+                    __("No = Closed Lost"),
                     // On Confirm (Closed Won)
                     
 
@@ -471,8 +471,8 @@ if (!window._opportunity_funnel_handlers_bound) {
             // prompt for Closed Won/Lost again
              frappe.confirm(
                 __("Final outcome of this opportunity?") + "<br>" +
-                __("✅ Yes = Closed Won") + "<br>" +
-                __("❌ No = Closed Lost"),
+                __("Yes = Closed Won") + "<br>" +
+                __("No = Closed Lost"),
                 // On Confirm (Closed Won)
                 () => {
                     frm.set_value("status", "Closed Won");
